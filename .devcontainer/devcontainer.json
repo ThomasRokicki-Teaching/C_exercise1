@@ -1,0 +1,10 @@
+{
+  "name": "C Classroom",
+  "image": "mcr.microsoft.com/devcontainers/cpp:ubuntu",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-vscode.cpptools"]
+    }
+  },
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y make"
+}
